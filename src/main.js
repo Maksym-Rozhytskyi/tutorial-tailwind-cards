@@ -6,7 +6,7 @@ document.querySelector('#app').innerHTML = `
         <section
                 class="card bg-primary text-white bg-[url('/images/bg-pattern-quotation.svg')] bg-no-repeat bg-right-top lg:col-span-2 lg:bg-[right_7rem_top]">
             <div class="card-container-name">
-                <img src="images/image-daniel.jpg" alt="Daniel Clifford"
+                <img src="/images/image-daniel.jpg" alt="Daniel Clifford"
                      class="card-photo">
                 <div class="card-person">
                     <span class="font-bold">Daniel Clifford</span>
@@ -30,7 +30,7 @@ document.querySelector('#app').innerHTML = `
         </section>
         <section class="card bg-primary-dark text-white">
             <div class="card-container-name">
-                <img src="images/image-jonathan.jpg" alt="Jonathan Walters"
+                <img src="/images/image-jonathan.jpg" alt="Jonathan Walters"
                      class="card-photo">
                 <div class="card-person">
                     <span class="font-bold">Jonathan Walters</span>
@@ -47,7 +47,7 @@ document.querySelector('#app').innerHTML = `
         </section>
         <section class="card bg-white text-primary-blackish">
             <div class="card-container-name">
-                <img src="images/image-jeanette.jpg" alt="Jeanette Harmon"
+                <img src="/images/image-jeanette.jpg" alt="Jeanette Harmon"
                      class="card-photo">
                 <div class="card-person">
                     <span class="font-bold">Jeanette Harmon</span>
@@ -64,7 +64,7 @@ document.querySelector('#app').innerHTML = `
         </section>
         <section class="card bg-primary-blackish text-white lg:col-span-2">
             <div class="card-container-name">
-                <img src="images/image-patrick.jpg" alt="Patrick Abrams"
+                <img src="/images/image-patrick.jpg" alt="Patrick Abrams"
                      class="card-photo">
                 <div class="card-person">
                     <span class="font-bold">Patrick Abrams</span>
@@ -84,7 +84,7 @@ document.querySelector('#app').innerHTML = `
         </section>
         <section class="card bg-white text-primary-blackish lg:col-start-4 lg:row-start-1 lg:row-span-2">
             <div class="card-container-name">
-                <img src="images/image-kira.jpg" alt="Kira Whittle"
+                <img src="/images/image-kira.jpg" alt="Kira Whittle"
                      class="card-photo">
                 <div class="card-person">
                     <span class="font-bold">Kira Whittle</span>
@@ -107,3 +107,4 @@ document.querySelector('#app').innerHTML = `
         </section>
     </div>
 `
+
