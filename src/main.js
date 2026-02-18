@@ -2,9 +2,9 @@ import './style.css'
 
 // language=HTML
 document.querySelector('#app').innerHTML = `
-    <div class="flex flex-col gap-8">
+    <div class="mx-auto grid min-h-[100vh] max-w-[1200px] gap-8 p-8 lg:grid-cols-4 lg:place-content-center">
         <section
-                class="bg-primary card text-white bg-[url('images/bg-pattern-quotation.svg')] bg-no-repeat bg-position-[top_right_1rem]">
+                class="card bg-primary text-white bg-[url('/images/bg-pattern-quotation.svg')] bg-no-repeat bg-right-top lg:col-span-2 lg:bg-[right_7rem_top]">
             <div class="card-container-name">
                 <img src="images/image-daniel.jpg" alt="Daniel Clifford"
                      class="card-photo">
@@ -28,7 +28,7 @@ document.querySelector('#app').innerHTML = `
                 successfully switched careers, working as a Software Engineer at a VR startup.
             </p>
         </section>
-        <section class="bg-primary-dark card text-white">
+        <section class="card bg-primary-dark text-white">
             <div class="card-container-name">
                 <img src="images/image-jonathan.jpg" alt="Jonathan Walters"
                      class="card-photo">
@@ -45,24 +45,24 @@ document.querySelector('#app').innerHTML = `
                 company. This was one of the best investments I’ve made in myself.
             </p>
         </section>
-        <section class="bg-primary-blackish card text-white">
+        <section class="card bg-white text-primary-blackish">
             <div class="card-container-name">
                 <img src="images/image-jeanette.jpg" alt="Jeanette Harmon"
                      class="card-photo">
                 <div class="card-person">
                     <span class="font-bold">Jeanette Harmon</span>
-                    <span class="text-white/50">Verified Graduate</span>
+                    <span class="card-edu text-black/50">Verified Graduate</span>
                 </div>
             </div>
             <p class="card-info">
                 An overall wonderful and rewarding experience
             </p>
-            <p class="card-description">
+            <p class="card-description text-black/50">
                 Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while
                 doing something I love.
             </p>
         </section>
-        <section class="bg-primary-dark card card text-white">
+        <section class="card bg-primary-blackish text-white lg:col-span-2">
             <div class="card-container-name">
                 <img src="images/image-patrick.jpg" alt="Patrick Abrams"
                      class="card-photo">
@@ -82,19 +82,19 @@ document.querySelector('#app').innerHTML = `
                 incredible community of smart and amazing people.
             </p>
         </section>
-        <section class="bg-primary-blackish card text-white">
+        <section class="card bg-white text-primary-blackish lg:col-start-4 lg:row-start-1 lg:row-span-2">
             <div class="card-container-name">
                 <img src="images/image-kira.jpg" alt="Kira Whittle"
                      class="card-photo">
                 <div class="card-person">
                     <span class="font-bold">Kira Whittle</span>
-                    <span class="text-white/50">Verified Graduate</span>
+                    <span class="card-edu text-black/50">Verified Graduate</span>
                 </div>
             </div>
             <p class="card-info">
                 Such a life-changing experience. Highly recommended!
             </p>
-            <p class="card-description">
+            <p class="card-description text-black/50">
                 Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
                 professionals who can help me learn programming step by step. I was encouraged to enroll by a former
                 student of theirs who can only say wonderful things about the program. The entire curriculum and staff
