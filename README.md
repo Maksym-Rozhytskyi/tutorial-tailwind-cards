@@ -14,3 +14,7 @@ Adaptive grid of review cards created with Tailwind CSS v4.
 - Component-based styling
 - Background patterns
 - Advanced grid positioning
+
+## Netlify
+
+Link: https://timely-semifreddo-885655.netlify.app/
